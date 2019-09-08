@@ -4,8 +4,8 @@ import './Legal.css';
 export default function Legal() {
 
     return (
-    <div >
-        <div>
+    <div className='container'>
+        <div className='legal-details'>
             <h2>Legal</h2>
         </div>
         

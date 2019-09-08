@@ -7,16 +7,15 @@ import Legal from './components/Legal/Legal';
 import Fees from './components/Fees/Fees';
 import EC from './components/EC/EC';
 
-
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <EC />
-      <About />
-      <Services />
-      <Legal />
-      <Fees />
+        <Nav />
+        <EC />
+        <About />
+        <Services />
+        <Legal />
+        <Fees />
     </div>
   );
 }

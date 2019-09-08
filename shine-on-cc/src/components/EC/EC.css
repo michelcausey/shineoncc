@@ -1,3 +1,25 @@
+.container {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.existing-link {
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.existing-button {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background: #f15f23;
+    color: #fcf8f6;
+}
+
 a {
-    color: red;
+    text-decoration: none;
 }

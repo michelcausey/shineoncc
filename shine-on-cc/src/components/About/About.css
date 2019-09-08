@@ -1,0 +1,17 @@
+.container {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fcf8f6;
+}
+
+.headshot {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+p {
+    display: inline;
+}

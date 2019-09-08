@@ -4,8 +4,8 @@ import './Services.css';
 export default function Services() {
 
     return (
-    <div >
-        <div>
+    <div className='container'>
+        <div className='services'>
             <h2>Services</h2>
         </div>
         
