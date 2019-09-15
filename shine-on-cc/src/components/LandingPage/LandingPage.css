@@ -1,0 +1,13 @@
+.landingPage {
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto 0px auto;
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke
+}
+
+#brain {
+    height: 600px;
+    width: 100%;
+}

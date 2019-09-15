@@ -5,11 +5,8 @@ import './Nav.css';
 export default function Nav() {
 
     return (
-    <div >
         <nav className='navbar'>
-            <img className='shine-on-logo' src='images\shine-on-logo_large.jpg' alt='shine-on-logo'></img>
+            <img className='logo' src='\images\shine-on-logo_large.jpg' alt='logo'></img>
         </nav>
-        
-    </div>
     );
 }

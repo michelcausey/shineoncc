@@ -1,5 +1,5 @@
 import React from 'react';
-import './Fees.css';
+import './Contact.css';
 
 export default function Fees() {
 

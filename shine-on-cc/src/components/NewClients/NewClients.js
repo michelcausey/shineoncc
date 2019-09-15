@@ -1,5 +1,5 @@
 import React from 'react';
-import './EC.css';
+import './NewClients.css';
 
 export default function ExistingClient() {
 

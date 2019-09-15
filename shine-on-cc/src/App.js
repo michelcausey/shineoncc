@@ -1,22 +1,47 @@
 import React from 'react';
 import './App.css';
 import Nav from './components/Nav/Nav';
-import About from './components/About/About';
+import LandingPage from './components/LandingPage/LandingPage';
+import OurPractice from './components/OurPractice/OurPractice';
 import Services from './components/Services/Services';
-import Legal from './components/Legal/Legal';
-import Fees from './components/Fees/Fees';
-import EC from './components/EC/EC';
+import NewClients from './components/NewClients/NewClients';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import { Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-        <Nav />
-        <EC />
-        <About />
-        <Services />
-        <Legal />
-        <Fees />
-    </div>
+        
+    <Router>
+      <Nav />
+        <nav>
+          <ul>
+            <li>
+              <Link to="/ourpractice">I. Our Practice</Link>
+            </li>
+            <li>
+            <Link to="/services">II. Services</Link>
+            </li>
+            <li>
+              <Link to="/new-clients">III. New Clients</Link>
+            </li>
+            <li>
+              <Link to="/contact">IV. Contact</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <Switch>
+            <Route path="/" exact component={LandingPage} />
+            <Route path="/ourpractice/" component={OurPractice} />
+            <Route path="/services/" component={Services} />
+            <Route path="/new-clients/" component={NewClients} />
+            <Route path="/contact/" component={Contact} />
+        </Switch>
+        <Footer />
+    </Router>
+    
   );
 }
 
