@@ -1,3 +1,4 @@
+
 .contact_container {
     height: 1000px;
     width: 75%;
@@ -6,10 +7,12 @@
 }
 
 .contact-div {
-    height: 100px;
+    height: 60px;
     text-align: center;
     background-color: rgb(241,95,35);
     font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 .location {

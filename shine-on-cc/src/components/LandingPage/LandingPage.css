@@ -17,3 +17,10 @@
     margin: 0 auto 0 auto;
     width: 75%;
 }
+
+button {
+    display: block;
+    width: 25%;
+    margin: 10px auto 10px auto;
+    border-radius: 25px;
+}

@@ -8,6 +8,9 @@ export default function OurPractice() {
             <div className='ourpractice-div'>
                 <b>Our Practice</b>
             </div>
+            <div className='existing-client-portal'>
+                <a href='https://shineonorlando.securepatientarea.com/portal/index/'><button>Existing Client Portal</button></a>
+            </div>
             <div className='practice-intro'>
                 <p className='quote'>
                     "However long the night, the dawn will break."<br></br>
@@ -21,8 +24,7 @@ export default function OurPractice() {
                 </p>
                 <p className='meet-sanya-p'>
                 Sanya holds a Bachelor's degree in Psychology with a minor in Criminal Justice, as well as a Master's degree in Counselor Education from the University of Central Florida.  During her Master’s program, she also earned a graduate certificate in Play Therapy and has completed post-graduate training in Sand Tray and other experiential modalities.
-                </p>  
-
+                </p>
             </div>
         </div>
     );

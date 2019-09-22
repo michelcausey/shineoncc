@@ -7,6 +7,7 @@ export default function Footer() {
     return (
     <div >
         <nav className='footer'>
+            
         <div className='footer'>
             <div id="item1">
                 <h3 id='h3Footer'>Office Hours</h3>

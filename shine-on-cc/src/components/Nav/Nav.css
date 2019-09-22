@@ -11,10 +11,3 @@
     margin-left: 0px;
     box-shadow: 3px 3px 3px gray;
 }
-
-button {
-    display: block;
-    width: 25%;
-    margin: 10px auto 10px auto;
-    border-radius: 25px;
-}
