@@ -24,11 +24,42 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  font-size: 32px;
+}
+
+.link-container {
+  height: 300px;
+  font-size: 48px;
+  padding: 20px;
+  width: 100%;
+  margin-left: 10%;
+  background-image: url('/images/.jpg')
+}
+
+/* a normal, unvisited link */
+a:link {
+  font-size: 48px;
+  color: black;
+  text-decoration: underline;
+}
+
+/* a link the user has visited */
+a:visited {
+  font-size: 48px;
+  color: black;
+}
+
+/* a link when the user mouses over it */
+a:hover {
+  font-size: 48px;
+  color: rgb(241,95,35)
+
+}
+
+/* a link the moment it is clicked */
+a:active {
+  font-size: 52px;
+  color: rgb(241,95,35)
+
 }

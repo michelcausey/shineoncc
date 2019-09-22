@@ -1,25 +1,30 @@
-.container {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+.nc_container {
+    height: 1000px;
+    width: 75%;
+    margin: 10px auto 0 auto;
+    border: 1px solid rgb(241,95,35);
 }
 
-.existing-link {
-    padding: 5px;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
+.new-clients-div {
+    height: 100px;
+    text-align: center;
+    background-color: rgb(241,95,35);
+    font-size: 36px;
 }
 
-.existing-button {
-    margin-left: 10px;
+.fees {
+    height: 700px;
+    text-align: left;
+    background-color: white;
+    font-size: 18px;
     padding: 10px;
-    border-radius: 25px;
-    background: #f15f23;
-    color: #fcf8f6;
+    background-color: whitesmoke;
+    overflow: hidden;
+    overflow: auto;
+    overflow: scroll;
 }
 
-a {
-    text-decoration: none;
+.intro-text {
+    text-align: center;
+    font-size: 24px;
 }

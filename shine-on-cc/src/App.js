@@ -15,22 +15,22 @@ function App() {
         
     <Router>
       <Nav />
-        <nav>
-          <ul>
+        <div className='link-container'>
+          <ol type="I">
             <li>
-              <Link to="/ourpractice">I. Our Practice</Link>
+              <Link to="/ourpractice">Our Practice</Link>
             </li>
             <li>
-            <Link to="/services">II. Services</Link>
+            <Link to="/services">Services</Link>
             </li>
             <li>
-              <Link to="/new-clients">III. New Clients</Link>
+              <Link to="/new-clients">New Clients</Link>
             </li>
             <li>
-              <Link to="/contact">IV. Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
-          </ul>
-        </nav>
+          </ol>
+        </div>
 
         <Switch>
             <Route path="/" exact component={LandingPage} />

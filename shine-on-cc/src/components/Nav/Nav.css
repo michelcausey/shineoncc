@@ -1,12 +1,21 @@
 .navbar {
-    height: 75px;
+    height: 100px;
     width: 100%;
     margin-top: 0;
-    padding: 20px;
-    background: #96a1a8;
+    background: #ffffff;
 }
 
-.logo {
-    height: 75px;
-    box-shadow: 3px 3px 3px black;
+#small-logo {
+    height: 100px;
+    width: 300px;
+    margin-left: 0;
+    float: left;
+    box-shadow: 3px 3px 3px gray;
+}
+
+button {
+    display: block;
+    width: 25%;
+    margin: 10px auto 10px auto;
+    border-radius: 25px;
 }

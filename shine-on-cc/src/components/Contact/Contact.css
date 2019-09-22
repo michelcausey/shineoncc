@@ -1,6 +1,50 @@
-.container {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+.contact_container {
+    height: 1000px;
+    width: 75%;
+    margin: 10px auto 0 auto;
+    border: 1px solid rgb(241,95,35);
+}
+
+.contact-div {
+    height: 100px;
+    text-align: center;
+    background-color: rgb(241,95,35);
+    font-size: 36px;
+}
+
+.location {
+    height: 1000px;
+    text-align: left;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    overflow: auto;
+    overflow: scroll;
+}
+
+.location-text {
+    text-align: center;
+    font-size: 24px;
+}
+
+#email {
+    height: 50px;
+    width: 50px;
+}
+
+#email-link {
+    font-size: 24px;
+    padding: 10px;
+}
+
+#phone {
+    height: 50px;
+    width: 50px;
+}
+
+#phone-link {
+    font-size: 24px;
+    padding: 10px;
 }

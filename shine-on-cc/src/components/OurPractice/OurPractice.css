@@ -1,17 +1,56 @@
-.container {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    background: #fcf8f6;
+.ourpractice_container {
+    height: 1500px;
+    width: 75%;
+    margin: 10px auto 0 auto;
+    border: 1px solid rgb(241,95,35);
 }
 
-.headshot {
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
+.ourpractice-div {
+    height: 100px;
+    text-align: center;
+    background-color: rgb(241,95,35);
+    font-size: 36px;
 }
 
-p {
-    display: inline;
+.practice-intro {
+    height: 1200px;
+    text-align: left;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    overflow: auto;
+    overflow: scroll;
+}
+
+.quote {
+    text-align: center;
+    font-size: 48px;
+    height: 150px;
+    padding: 150px;
+    background-image: url('/images/Bachelorette+Cruise+-+82.jpg')
+}
+
+#meet-sanya {
+    text-align: center;
+}
+
+#meet-sanya-p {
+    overflow: hidden;
+    overflow: auto;
+    overflow: scroll;
+}
+
+#headshot {
+    margin: 10px;
+    height: 240px;
+    width: 240px;
+    margin-left: 20px;
+    float: left;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.existing-clients {
+    padding: 5px;
 }
