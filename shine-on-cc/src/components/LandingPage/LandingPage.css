@@ -4,10 +4,16 @@
     margin: 0px auto 0px auto;
     width: 100%;
     height: 450px;
-    background-color: whitesmoke
+    background-image: url('/images/canva3.jpg')
 }
 
 #brain {
     height: 600px;
     width: 100%;
+}
+
+.photo {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 75%;
 }

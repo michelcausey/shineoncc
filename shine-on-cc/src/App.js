@@ -15,6 +15,7 @@ function App() {
         
     <Router>
       <Nav />
+      <div className='container'>
         <div className='link-container'>
           <ol type="I">
             <li>
@@ -31,6 +32,7 @@ function App() {
             </li>
           </ol>
         </div>
+      </div>
 
         <Switch>
             <Route path="/" exact component={LandingPage} />
